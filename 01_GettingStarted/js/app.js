@@ -5,14 +5,16 @@
 
 (function(){
     'use strict';
-    var myApp = angular.module('myApp',[]);
+    var MyApp = angular.module('MyApp',[]);
+
+    console.log( 'MyApp ',MyApp);
    
-    myApp.controller('ToDoCtrl',function ($scope) {
+    MyApp.controller('ToDoCtrl',function ($scope) {
         
         // Scope variables
         $scope.total =5;
-        
-        
+
+        console.log( 'scope ',$scope);    
         
     });
 

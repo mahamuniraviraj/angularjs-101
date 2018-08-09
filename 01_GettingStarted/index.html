@@ -8,15 +8,16 @@
     <script src="/js/angular.min.js"></script>
     <script src="/js/app.js"></script>
 </head>
-<body ng-app="myApp">
+<body ng-app="MyApp">
     <div ng-controller="ToDoCtrl">
         <p>
-        {{total}}
-    </p>
-       <p> <span ng-bind="total"></span></p>
-        <p><input type="text" ng-model="total"></p>
+        Total : {{total}}
+        </p>
+       <p> Total :  <span ng-bind="total"></span></p>
+       <p>Total :  <input type="text" ng-model="total"></p>
 
     </div>
+    
     
    
 </body>
